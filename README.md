@@ -1,3 +1,3 @@
 # Disable Ligatures
 
-Disable Ligatures on all websites
+Disable ligatures on all websites.
