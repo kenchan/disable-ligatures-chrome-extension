@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Disable Ligatures",
+    "version": "0.1",
+    "default_locale": "en",
+    "description": "Disable Ligatures on all websites",
+
+    "content_scripts": [
+        {
+            "css": ["css/style.css"],
+            "matches": ["http://*/*", "https://*/*"]
+        }
+    ]
+}
