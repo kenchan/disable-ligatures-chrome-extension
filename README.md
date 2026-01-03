@@ -2,39 +2,39 @@
 
 Disable ligatures on all websites.
 
-## 開発
+## Development
 
-このプロジェクトは [WXT](https://wxt.dev/) を使用して構築されています。
+This project is built using [WXT](https://wxt.dev/).
 
-### セットアップ
+### Setup
 
 ```bash
 pnpm install
 ```
 
-### 開発モード
+### Development Mode
 
 ```bash
-# Chrome/Edge用
+# For Chrome/Edge
 pnpm dev
 
-# Firefox用
+# For Firefox
 pnpm dev:firefox
 ```
 
-### ビルド
+### Build
 
 ```bash
-# Chrome/Edge用
+# For Chrome/Edge
 pnpm build
 
-# Firefox用
+# For Firefox
 pnpm build:firefox
 ```
 
-ビルドされた拡張機能は `.output/chrome-mv3/` または `.output/firefox-mv3/` ディレクトリに出力されます。
+The built extension will be output to the `.output/chrome-mv3/` or `.output/firefox-mv3/` directory.
 
-### 配布用ZIPの作成
+### Create Distribution ZIP
 
 ```bash
 pnpm zip
